@@ -6,7 +6,7 @@ import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
 import Header from "../../components/Header";
 
-const index = () => {
+const Team = () => {
   const columns: GridColDef[] = [
     { field: "id", headerName: "ID" },
     {
@@ -85,4 +85,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Team;
