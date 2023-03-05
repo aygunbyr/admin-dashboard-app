@@ -36,16 +36,15 @@ const Sidebar = () => {
     setSelected,
   }: ItemProps): JSX.Element => {
     return (
-      <Link to={to}>
-        <MenuItem
-          active={selected === title}
-          style={{ color: "#141414" }}
-          onClick={() => setSelected(title)}
-          icon={icon}
-        >
-          <Typography sx={{ fontSize: "12px" }}>{title}</Typography>
-        </MenuItem>
-      </Link>
+      <MenuItem
+        component={<Link to={to} />}
+        active={selected === title}
+        style={{ color: "#141414" }}
+        onClick={() => setSelected(title)}
+        icon={icon}
+      >
+        <Typography sx={{ fontSize: "12px" }}>{title}</Typography>
+      </MenuItem>
     );
   };
 
