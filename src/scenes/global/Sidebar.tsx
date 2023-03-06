@@ -19,7 +19,7 @@ import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 type ItemProps = {
   title: string;
   to: string;
-  icon: any;
+  icon: React.ReactNode;
   selected: string;
   setSelected: React.Dispatch<React.SetStateAction<string>>;
 };
