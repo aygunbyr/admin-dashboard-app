@@ -2,21 +2,20 @@
 
 I am developing this project for educational purposes. Thank you for your interest.
 
-[Live Demo](https://admin-dashboard-app-pi.vercel.app/)
+[Live Demo](https://admin-dashboard-app-aygunbyr.vercel.app/)
 
 ## Used Libraries
 
-- React, Context API
+- React, Typescript
 - React Router v6
-- Typescript
 - MUI, DataGrid API
-- Formik
+- Formik, Yup
 - FullCalendar
 - Nivo
 
 ## Installation
 
-To Install NPM packages:
+To install NPM packages
 
 ```
 npm install
