@@ -91,7 +91,7 @@ const Sidebar = () => {
                   sx={{ fontSize: "24px" }}
                   color="#141414"
                 >
-                  ADMINIS
+                  ADMIN
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
