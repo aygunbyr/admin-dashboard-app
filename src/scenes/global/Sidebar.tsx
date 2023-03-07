@@ -107,7 +107,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src="/assets/pexels-anna-shvets-4672491.jpg"
+                  src="/assets/pexels-antoni-shkraba-5467596.jpg"
                   style={{
                     cursor: "pointer",
                     objectFit: "cover",
@@ -123,7 +123,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ fontSize: "24px", m: "10px 0 0 0" }}
                 >
-                  Jane Meldrum
+                  John Doe
                 </Typography>
                 <Typography
                   variant="h5"
