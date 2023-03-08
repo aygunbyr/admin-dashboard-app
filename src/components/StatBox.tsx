@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import { SvgIconProps } from "@mui/material";
 import ProgressCircle from "./ProgressCircle";
 
 type Props = {
